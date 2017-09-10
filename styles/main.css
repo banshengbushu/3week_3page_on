@@ -1,8 +1,7 @@
 body {
     width: 1600px;
     background: #80a8cc;
-    font-size: 62.5%;
-    font-family: 'Amativa SC', cursive;
+    font-family: fantasy, cursive;
     --white: #FFF;
     --black: #4d4e59;
     text-align: center;
@@ -10,16 +9,35 @@ body {
 
 .header {
     height: 100px;
-    background-color: var(--white);
+    background-color: #fcf9f4;
 }
 
 .header img {
+    width: 145px;
+    margin: 0 245px 0 150px;
     display: inline-block;
-    width: 110px;
+    float: left;
+}
+
+.header ul li:first-child::before {
+    content: '';
+    border-left: 1px solid #eae7e2;
+    margin-right: 42px;
+}
+
+.header ul li:last-child::after {
+    content: '';
+    border-left: 1px solid #eae7e2;
+    margin-left: 42px;
 }
 
 ul {
-    display: inline;
+    display: inline-block;
+    color: #d8d6d5;
+    font-family: "Open Sans";
+    font-size: 18px;
+    margin: 30px 42px 0 -400px;
+    clear: both;
 }
 
 .header ul li {
@@ -30,8 +48,10 @@ ul {
 .header .header_btn {
     width: 150px;
     height: 40px;
+    font-size: 16px;
     border: 1px solid #dad7d2;
     color: var(--black);
+    background-color: #fcf9f4;
 }
 
 .container {
@@ -74,18 +94,16 @@ ul {
     height: 60px;
     width: 300px;
     font-size: 24px;
-    border: none;
+    font-family: fantasy, cursive;
 }
 
-
-
-.container .section_sum ul{
+.container .section_sum ul {
     display: table;
 }
+
 .container .section_sum li {
     display: table-cell;
     vertical-align: middle;
-    height: 350px;
     margin-left: 30px;
     border: solid 1px #eeece7;
     padding: 50px;
