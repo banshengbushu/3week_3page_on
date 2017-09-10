@@ -6,7 +6,7 @@
 <body>
 <div class="header">
     <img src="./images/logo.png" alt="">
-    <ul>
+    <ul class="header_nav">
         <li>Home</li>
         <li>Apply As Tutor</li>
         <li>How It work</li>
@@ -17,67 +17,81 @@
     <button class="btn header_btn">Donate</button>
 </div>
 
-<div class="container">
+<ul class="container">
     <div class="section main">
-        <h1>ONLINE tutoring always free and available</h1>
+        <h1>ONLINE TUTORING ALWAYS FREE AND AVAILABLE</h1>
         <div>
-            <button class="btn container_btn">I'm a student</button>
-            <button class="btn container_btn btn-active">I'm a tutor</button>
+            <button class="btn container_btn transparent">I'M A STUDENT</button>
+            <button class="btn container_btn btn-active">I'M A TUTOR</button>
         </div>
     </div>
-    <ul>
+    <div class="section black">
+        <h2 class="section_title">MISSION</h2>
+        <p class="main_description">
+            The learn to be foundation is on a mission to provide 100% free, 1-on-1, online tutoring to students
+            everywhere.
+        </p>
+        <button class="btn container_btn bg-yello">Donate</button>
+    </div>
+    <ul class="container_list">
         <li>
-            <div class="section section_content">
-                <h2 class="section_title">MISSION</h2>
-                <p>
-                    The learn to be foundation is on a mission to provide 100% free, 1-on-1,
-                    online tutoring to students everywhere.
-                </p>
-                <button class="btn container_btn bg-yello">Donate</button>
-            </div>
+            <ul class="section item bg-green">
+                <li>
+                    <img class="section_icon" src="./images/1.png" alt="">
+                </li>
+                <li class="section_description right">
+                    <h2 class="section_title">STUDENTS</h2>
+                    <p>
+                        We offer student 100% free online tutoring
+                        almost 24 hours a day.Struggling with a
+                        homework problem?Don't understand a
+                        concept you're learning? Don't worry,we've
+                        got you.
+                    </p>
+                    <button class="btn container_btn shadow_green">Start Learning</button>
+                </li>
+
+            </ul>
         </li>
         <li>
-            <div class="section bg-green">
-                <h2 class="section_title">STUDENTS</h2>
-                <p>
-                    We offer student 100% free online tutoring
-                    almost 24 hours a day.Struggling with a
-                    homework problem?Don't understand a
-                    concept you're learning? Don't worry,we've
-                    got you.
-                </p>
-                <button class="btn container_btn bg-green">Start Learning</button>
-            </div>
+            <ul class="section item bg-yello">
+                <li class="section_description left">
+                    <h2 class="section_title">PROSPECTIVE TUTORS</h2>
+                    <p>
+                        Join our team of over 600 tutors who are
+                        dedicated to providing individualized atten-
+                        tion to students around the world. Tutor at
+                        your convenience and make a real impact.
+                    </p>
+                    <button class="btn container_btn shadow_yello">Join Us</button>
+                </li>
+                <li>
+                    <img class="section_icon" src="./images/2.png" alt="">
+                </li>
+            </ul>
         </li>
         <li>
-            <div class="section bg-yello">
-                <h2 class="section_title">PROSPECTIVE TUTORS</h2>
-                <p>
-                    Join our team of over 600 tutors who are
-                    dedicated to providing individualized atten-
-                    tion to students around the world. Tutor at
-                    your convenience and make a real impact.
-                </p>
-                <button class="btn container_btn bg-yello">Join Us</button>
-            </div>
+            <ul class="section item bg-blue">
+                <li>
+                    <img class="section_icon" src="./images/3.png" alt="">
+                </li>
+                <li class="section_description right">
+                    <h2 class="section_title">PARTNERS</h2>
+                    <p>
+                        We are dedicated to partnering with schools
+                        and organizations that help to further our
+                        mission of providing individualized online tu-
+                        toring to kids living in underserved commu-
+                        nities.
+                    </p>
+                    <button class="btn container_btn shadow_blue">Help Us</button>
+                </li>
+            </ul>
         </li>
         <li>
-            <div class="section bg-blue">
-                <h2 class="section_title">PARTNERS</h2>
-                <p>
-                    We are dedicated to partnering with schools
-                    and organizations that help to further our
-                    mission of providing individualized online tu-
-                    toring to kids living in underserved commu-
-                    nities.
-                </p>
-                <button class="btn container_btn bg-blue">Help Us</button>
-            </div>
-        </li>
-        <li>
-            <div class="section section_sum section_content">
+            <div class="section black">
                 <h2 class="section_title">OUR PROGRESS</h2>
-                <ul>
+                <ul class="section_table">
                     <li class="green">
                         <span>13,000</span>
                         <p>Hour Tutored</p>
@@ -94,11 +108,12 @@
             </div>
         </li>
     </ul>
-</div>
-<div class="footer">
-    <p class="footer_content">
-        &copy; Learn To Be 2014
-    </p>
-</div>
+    </div>
+    <div class="footer">
+        <p class="footer_content">
+            &copy; Learn To Be 2014
+        </p>
+    </div>
+</ul>
 </body>
 </html>
