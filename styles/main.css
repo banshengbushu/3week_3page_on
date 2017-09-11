@@ -1,5 +1,4 @@
 body {
-    width: 1600px;
     background: #80a8cc;
     font-family: "Amatic SC", "cursive";
     box-shadow: 1px 10px 1px #888888;
@@ -15,7 +14,7 @@ body {
 
 .header img {
     width: 145px;
-    margin: 0 0 0 150px;
+    margin: 0 0 0 80px;
     display: inline-block;
     float: left;
 }
@@ -32,7 +31,7 @@ ul {
 
 .header .header_nav {
     height: 100px;
-    margin: 0 42px 0 -180px;
+    margin: 0 42px 0 -80px;
     border-left: 1px solid #eae7e2;
     border-right: 1px solid #eae7e2;
     font-family: "Open Sans";
@@ -102,7 +101,7 @@ ul {
 }
 
 .right {
-    padding-right: 300px;
+    padding-right: 210px;
 }
 
 .left {
