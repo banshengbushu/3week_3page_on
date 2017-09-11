@@ -1,7 +1,7 @@
 body {
     width: 1600px;
     background: #80a8cc;
-    font-family: fantasy, cursive;
+    font-family: "Amatic SC", "cursive";
     box-shadow: 1px 10px 1px #888888;
     text-align: center;
     --white: #FFF;
@@ -94,7 +94,6 @@ ul {
 .container .section .section_icon {
     width: 330px;
     height: 330px;
-    float: left;
 }
 
 .container .section_description {
@@ -169,7 +168,7 @@ ul {
 .btn-active {
     margin-left: 30px;
     background-color: rgba(255, 255, 255, 0.2);
-    font-family: fantasy, cursive;
+    font-family: "Amatic SC", "cursive";
 }
 
 .btn {
@@ -229,7 +228,7 @@ h2 {
 
 .transparent {
     background-color: transparent;
-    font-family: fantasy, cursive;
+    font-family: "Amatic SC", "cursive";
 }
 
 .section_title {
